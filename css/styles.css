@@ -1,0 +1,299 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  position: fixed;
+  width: 90vw;
+  z-index: 100;
+  color: white;
+  font-size: 10pt;
+}
+
+#nav-links {
+  display: flex;
+  column-gap: 20px;
+  text-transform: uppercase;
+}
+
+#hero {
+  background-image: url(../assets/images/rest.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+#hero-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#welcome {
+  font-size: 60px;
+}
+
+#vee {
+  font-size: 90px;
+}
+
+.menu-button {
+  background-color: white;
+  color: rgba(81, 90, 2, 0.89);
+  border: none;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font: 12px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(185, 145, 70);
+  color: white;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  align-items: center;
+  row-gap: 50px;
+}
+
+#about-text {
+  margin-top: 50px;
+}
+
+#about-image {
+  width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#turkey {
+  color: red;
+  font-size: 30px;
+}
+
+#arrive {
+  font-size: 50px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+#space {
+  padding: 30px 78px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#about-link {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about-link a {
+  text-decoration: none;
+}
+
+#discover {
+  background-image: url(../assets/images/background.jpg);
+  width: 100vw;
+  height: 50vh;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+#discover-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 60px;
+}
+
+#sub-text-one {
+  color: red;
+  font-size: 30px;
+}
+
+#sub-text-two {
+  font-size: 50px;
+  color: white;
+}
+
+#menu {
+  background-color: #F4F1EB;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  padding: 100px 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 80vw;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.group1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 520px;
+}
+
+.group2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 250px;
+}
+
+.group3 {
+  height: 250px;
+}
+
+.delicious {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 120px 0px;
+  column-gap: 40px;
+  
+
+
+}
+ .del-img{
+    width: 370px;
+    height: 219px; 
+  border-radius: 15px;
+   }
+
+
+#video-sec {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+}
+
+video {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+#video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reservation {
+  background-color: #ECECEC;
+  padding: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#reservation img {
+  width: 30%;
+  border-radius: 15px;
+}
+
+#input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#input-grid input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+}
+.sect a{
+text-decoration: none;
+font-family: Montserrat;
+font-weight: 400;
+font-size: 12px;
+color: #222222;
+letter-spacing: 1px;
+
+}
+.sect p{
+  font-family: montserrat;    
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  padding-bottom: 35px;
+  padding-top: 15px;
+
+}
